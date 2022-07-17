@@ -113,69 +113,74 @@ void AddToCart()
     } while (repeatInput.ToLower() == "y");
 }
 
-void SortByPriceHL()
+void SortByPriceLH()
 {
+    Console.Clear();
+    Console.WriteLine($"Receipt:");
+    Console.WriteLine("");
+    Console.WriteLine(String.Format("{0, -20}{1,20}", $"Product", $"Price"));
+    Console.WriteLine("");
     foreach (string product in shoppingList)
     {
         if (product == "Bannana")
         {
-            Console.WriteLine(String.Format("{0, 10}", $"{product} ${goodsNPrice[product]}"));
+            Console.WriteLine(String.Format("{0, -20}{1,20}", $"{product}", $"${goodsNPrice[product]}"));
         }
     }
     foreach (string product in shoppingList)
     {
         if (product == "Bread")
         {
-            Console.WriteLine(String.Format("{0, 10}", $"{product} ${goodsNPrice[product]}"));
+            Console.WriteLine(String.Format("{0, -20}{1,20}", $"{product}", $"${goodsNPrice[product]}"));
         }
     }
     foreach (string product in shoppingList)
     {
         if (product == "Cantelope")
         {
-            Console.WriteLine(String.Format("{0, 10}", $"{product} ${goodsNPrice[product]}"));
+            Console.WriteLine(String.Format("{0, -20}{1,20}", $"{product}", $"${goodsNPrice[product]}"));
         }
     }
     foreach (string product in shoppingList)
     {
         if (product == "Red grapes")
         {
-            Console.WriteLine(String.Format("{0, 10}", $"{product} ${goodsNPrice[product]}"));
+            Console.WriteLine(String.Format("{0, -20}{1,20}", $"{product}", $"${goodsNPrice[product]}"));
         }
     }
     foreach (string product in shoppingList)
     {
         if (product == "Cereal")
         {
-            Console.WriteLine(String.Format("{0, 10}", $"{product} ${goodsNPrice[product]}"));
+            Console.WriteLine(String.Format("{0, -20}{1,20}", $"{product}", $"${goodsNPrice[product]}"));
         }
     }
     foreach (string product in shoppingList)
     {
         if (product == "Green grapes")
         {
-            Console.WriteLine(String.Format("{0, 10}", $"{product} ${goodsNPrice[product]}"));
+            Console.WriteLine(String.Format("{0, -20}{1,20}", $"{product}", $"${goodsNPrice[product]}"));
         }
     }
     foreach (string product in shoppingList)
     {
         if (product == "Ice cream")
         {
-            Console.WriteLine(String.Format("{0, 10}", $"{product} ${goodsNPrice[product]}"));
+            Console.WriteLine(String.Format("{0, -20}{1,20}", $"{product}", $"${goodsNPrice[product]}"));
         }
     }
     foreach (string product in shoppingList)
     {
         if (product == "Milk")
         {
-            Console.WriteLine(String.Format("{0, 10}", $"{product} ${goodsNPrice[product]}"));
+            Console.WriteLine(String.Format("{0, -20}{1,20}", $"{product}", $"${goodsNPrice[product]}"));
         }
     }
     foreach (string product in shoppingList)
     {
         if (product == "Ground beef")
         {
-            Console.WriteLine(String.Format("{0, 10}", $"{product} ${goodsNPrice[product]}"));
+            Console.WriteLine(String.Format("{0, -20}{1,20}", $"{product}", $"${goodsNPrice[product]}"));
         }
     }
 }
@@ -287,12 +292,14 @@ void DisplayLow()
 void TotalCartPrice()
 {
     decimal total = 0m;
-    SortByPriceHL();
+    SortByPriceLH();
     foreach (string product in shoppingList)
     {
         total = total += goodsNPrice[product];
     }
-    Console.WriteLine($"Your total is {total}, Thank you!");
+    Console.WriteLine("");
+    Console.WriteLine(String.Format("{0, -20}{1,20}", $"Total", $"${total}"));
+    Console.WriteLine("");
 }
 
 //Program
@@ -313,6 +320,7 @@ do
     TotalCartPrice();
     DisplayHigh();
     DisplayLow();
+    Console.WriteLine("");
     Console.WriteLine("Would you like to place another order? y/n:");
     repeatInputFinal = Console.ReadLine();
     shoppingList.Clear();
