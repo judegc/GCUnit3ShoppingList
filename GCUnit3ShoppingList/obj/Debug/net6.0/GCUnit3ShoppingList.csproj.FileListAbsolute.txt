@@ -1,0 +1,15 @@
+C:\Users\12489\Repository\GC\Unit3Lab\GCUnit3ShoppingList\GCUnit3ShoppingList\bin\Debug\net6.0\GCUnit3ShoppingList.exe
+C:\Users\12489\Repository\GC\Unit3Lab\GCUnit3ShoppingList\GCUnit3ShoppingList\bin\Debug\net6.0\GCUnit3ShoppingList.deps.json
+C:\Users\12489\Repository\GC\Unit3Lab\GCUnit3ShoppingList\GCUnit3ShoppingList\bin\Debug\net6.0\GCUnit3ShoppingList.runtimeconfig.json
+C:\Users\12489\Repository\GC\Unit3Lab\GCUnit3ShoppingList\GCUnit3ShoppingList\bin\Debug\net6.0\GCUnit3ShoppingList.dll
+C:\Users\12489\Repository\GC\Unit3Lab\GCUnit3ShoppingList\GCUnit3ShoppingList\bin\Debug\net6.0\GCUnit3ShoppingList.pdb
+C:\Users\12489\Repository\GC\Unit3Lab\GCUnit3ShoppingList\GCUnit3ShoppingList\obj\Debug\net6.0\GCUnit3ShoppingList.csproj.AssemblyReference.cache
+C:\Users\12489\Repository\GC\Unit3Lab\GCUnit3ShoppingList\GCUnit3ShoppingList\obj\Debug\net6.0\GCUnit3ShoppingList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\12489\Repository\GC\Unit3Lab\GCUnit3ShoppingList\GCUnit3ShoppingList\obj\Debug\net6.0\GCUnit3ShoppingList.AssemblyInfoInputs.cache
+C:\Users\12489\Repository\GC\Unit3Lab\GCUnit3ShoppingList\GCUnit3ShoppingList\obj\Debug\net6.0\GCUnit3ShoppingList.AssemblyInfo.cs
+C:\Users\12489\Repository\GC\Unit3Lab\GCUnit3ShoppingList\GCUnit3ShoppingList\obj\Debug\net6.0\GCUnit3ShoppingList.csproj.CoreCompileInputs.cache
+C:\Users\12489\Repository\GC\Unit3Lab\GCUnit3ShoppingList\GCUnit3ShoppingList\obj\Debug\net6.0\GCUnit3ShoppingList.dll
+C:\Users\12489\Repository\GC\Unit3Lab\GCUnit3ShoppingList\GCUnit3ShoppingList\obj\Debug\net6.0\refint\GCUnit3ShoppingList.dll
+C:\Users\12489\Repository\GC\Unit3Lab\GCUnit3ShoppingList\GCUnit3ShoppingList\obj\Debug\net6.0\GCUnit3ShoppingList.pdb
+C:\Users\12489\Repository\GC\Unit3Lab\GCUnit3ShoppingList\GCUnit3ShoppingList\obj\Debug\net6.0\GCUnit3ShoppingList.genruntimeconfig.cache
+C:\Users\12489\Repository\GC\Unit3Lab\GCUnit3ShoppingList\GCUnit3ShoppingList\obj\Debug\net6.0\ref\GCUnit3ShoppingList.dll
